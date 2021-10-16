@@ -29,7 +29,6 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -131,4 +130,6 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = Physics2D.IsTouchingLayers(feetPos, layerGround);
     }
+
+    //pendiente hacer animaciones de ataque y funciones de ataques al estilo richter
 }
